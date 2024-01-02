@@ -4,6 +4,7 @@ import dotenv from 'dotenv'
 import express from 'express'
 
 import { connectToDB } from '@/db/mongoClient'
+// import '@/db/mock/createMockData'
 import imageRouter from '@/routes/image'
 import menuRouter from '@/routes/menu'
 import orderRouter from '@/routes/order'

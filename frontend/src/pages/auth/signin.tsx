@@ -11,8 +11,8 @@ import {
 import { authOptions } from '../api/auth/[...nextauth]'
 
 const SignInPage = ({
-                      providers,
-                    }: {
+  providers,
+}: {
   providers:
     | Record<LiteralUnion<BuiltInProviderType, string>, ClientSafeProvider>
     | never[]
